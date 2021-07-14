@@ -1,6 +1,7 @@
 /**
  * @param {number[]} height
  * @return {number}
+ * 双指针
  */
 // var maxArea = function(height) {
 //     let ans = 0;

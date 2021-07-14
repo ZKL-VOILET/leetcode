@@ -1,6 +1,7 @@
 /**
  * @param {number} x
  * @return {boolean}
+ * 中心扩散法
  */
  var isPalindrome = function(x) {
     let temp = x.toString();
