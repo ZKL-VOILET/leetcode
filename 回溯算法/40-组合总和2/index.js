@@ -4,7 +4,7 @@
  * @return {number[][]}
  */
  var combinationSum2 = function(candidates, target) {
-    // 排序，方便剪枝
+    // 排序，方便去重剪枝
     candidates.sort((a, b) => a - b);
 
     const bfs = (list, start, target) => {
